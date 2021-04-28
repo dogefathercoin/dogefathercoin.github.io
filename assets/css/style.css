@@ -412,8 +412,7 @@ body {
       text-align: center;
     }
     #hero .hero-img img {
-      width: 50%;
-      padding: 25px;
+      max-width: 90%;
     }
   }
   
