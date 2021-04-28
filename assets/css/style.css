@@ -349,7 +349,7 @@ body {
   #hero {
     width: 100%;
     height: 88vh;
-    margin-top: 65px;
+    margin-top: 75px;
   }
   
   #token-img {
@@ -398,6 +398,10 @@ body {
     #hero {
       background-attachment: fixed;
     }
+    #hero {
+      height: 82vh;
+      margin-top: 150px;
+    }
   }
   
   @media (max-width: 991px) {
@@ -431,6 +435,13 @@ body {
     }
     #hero .hero-img img {
       width: 70%;
+    }
+    #token-img {
+      margin: 0 auto!important;
+      margin-top: 90px !important;
+    }    
+    #elon-img {
+      width: 42vh !important;
     }
   }
   
