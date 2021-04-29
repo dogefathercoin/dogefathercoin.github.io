@@ -12,6 +12,12 @@ body {
     font-family: "Open Sans", sans-serif;
     color: #fff;
     font-weight: 400;
+    margin-bottom: 64px;
+  }
+  @media (min-width: 768px) {
+    body {
+      margin-bottom: 0;
+    }    
   }
   
   a {
@@ -519,6 +525,9 @@ body {
   @media (min-width: 768px) {
     .section-title h2 {
       font-size: 32px;
+    }
+    .mobile-buy-bar {
+      display: none !important;
     }
   }
   .fa-dollar-sign {
